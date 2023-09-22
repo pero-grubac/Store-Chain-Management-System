@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AdministratorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HelperForms\Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HelperForms\AdminStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HelperForms\Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HelperForms\Bills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HelperForms\CustomerStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HelperForms\Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HelperForms\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HelperForms\Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HelperForms\StaffProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HelperForms\Stores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="KupacForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZaposleniForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

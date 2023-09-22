@@ -1,0 +1,98 @@
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\OnlineKupovinaGUI.exe
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\OnlineKupovinaGUI.deps.json
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\OnlineKupovinaGUI.runtimeconfig.json
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\OnlineKupovinaGUI.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\OnlineKupovinaGUI.pdb
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.csproj.AssemblyReference.cache
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.Login.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.Properties.Resources.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.csproj.GenerateResource.cache
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.AssemblyInfoInputs.cache
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.AssemblyInfo.cs
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.csproj.CoreCompileInputs.cache
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\refint\OnlineKupovinaGUI.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.pdb
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.genruntimeconfig.cache
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\ref\OnlineKupovinaGUI.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\BCrypt.Net-Next.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\Google.Protobuf.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\MySql.Data.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\System.IO.Pipelines.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\ZstdSharp.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\OnlineKupovinaDB.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\OnlineKupovinaDB.pdb
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.csproj.CopyComplete
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.Bills.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.Products.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.Stores.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.Settings.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.Customers.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.Staff.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.Admin.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.StaffProducts.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.CustomerStore.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.AdminStore.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.ZaposleniForm.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.AdministratorForm.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.KupacForm.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\OnlineKupovinaGUI.exe
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\OnlineKupovinaGUI.deps.json
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\OnlineKupovinaGUI.runtimeconfig.json
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\OnlineKupovinaGUI.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\OnlineKupovinaGUI.pdb
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\BCrypt.Net-Next.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\Google.Protobuf.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\MySql.Data.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\System.IO.Pipelines.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\ZstdSharp.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\OnlineKupovinaDB.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\bin\Debug\net7.0-windows\OnlineKupovinaDB.pdb
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.csproj.AssemblyReference.cache
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.AdministratorForm.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.Admin.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.AdminStore.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.Bills.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.Customers.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.CustomerStore.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.Products.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.Settings.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.Staff.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.StaffProducts.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.HelperForms.Stores.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.KupacForm.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.Login.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.Properties.Resources.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.ZaposleniForm.resources
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.csproj.GenerateResource.cache
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.AssemblyInfoInputs.cache
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.AssemblyInfo.cs
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.csproj.CoreCompileInputs.cache
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.csproj.CopyComplete
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\refint\OnlineKupovinaGUI.dll
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.pdb
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\OnlineKupovinaGUI.genruntimeconfig.cache
+C:\Users\Acer i3 6006u SSD\Downloads\Fakultet\Treća godina\Baze podataka\OnlineKupovina\OnlineKupovinaGUI\obj\Debug\net7.0-windows\ref\OnlineKupovinaGUI.dll
