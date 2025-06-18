@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <h1>🛒 Store Chain Management System</h1>
+    <h1 align="center">🛒 Store Chain Management System</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-Desktop_App-blueviolet?logo=csharp" />
+  <img src="https://img.shields.io/badge/.NET-WinForms%2FWPF-purple?logo=dotnet" />
+  <img src="https://img.shields.io/badge/MySQL-Database-lightblue?logo=mysql" />
+  <img src="https://img.shields.io/badge/GUI-Enabled-informational?logo=visualstudio" />
+</p>
     <p>
         This project is a desktop application for managing a retail chain. It provides CRUD (Create, Read, Update, Delete) operations for all tables in the database and offers a user-friendly GUI interface for administrators and employees to interact with the system efficiently.
     </p>
