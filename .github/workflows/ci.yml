@@ -1,0 +1,152 @@
+name: CI
+
+# Pokrece se samo kada se promijeni nesto sto utice na build, testove ili bazu.
+# README, slike, dokumentacija i licenca ne pokrecu pipeline.
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+    paths:
+      - "**/*.cs"
+      - "**/*.csproj"
+      - "**/*.sln"
+      - "**/*.resx"
+      - "**/appsettings*.json"
+      - "OnlineKupovinaGUI/Resources/**"
+      - "database/**"
+      - "docker-compose.yml"
+      - "global.json"
+      - "Directory.Build.*"
+      - ".github/workflows/ci.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "**/*.cs"
+      - "**/*.csproj"
+      - "**/*.sln"
+      - "**/*.resx"
+      - "**/appsettings*.json"
+      - "OnlineKupovinaGUI/Resources/**"
+      - "database/**"
+      - "docker-compose.yml"
+      - "global.json"
+      - "Directory.Build.*"
+      - ".github/workflows/ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  DOTNET_NOLOGO: true
+  DOTNET_CLI_TELEMETRY_OPTOUT: true
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+
+jobs:
+  build:
+    name: Build & unit tests (Windows)
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-dotnet@v5
+        with:
+          global-json-file: global.json
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: nuget-${{ runner.os }}-${{ hashFiles('**/*.csproj') }}
+          restore-keys: nuget-${{ runner.os }}-
+
+      - name: Restore
+        run: dotnet restore OnlineKupovina.sln
+
+      - name: Build
+        run: dotnet build OnlineKupovina.sln -c Release --no-restore
+
+      - name: Unit tests
+        run: >
+          dotnet test OnlineKupovina.sln -c Release --no-build
+          --filter "Category!=Integration"
+          --logger "trx;LogFilePrefix=unit"
+          --results-directory TestResults
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: unit-test-results
+          path: TestResults/*.trx
+          if-no-files-found: ignore
+
+  database:
+    name: Database integration tests (MySQL 8.4)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-dotnet@v5
+        with:
+          global-json-file: global.json
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: nuget-${{ runner.os }}-${{ hashFiles('**/*.csproj') }}
+          restore-keys: nuget-${{ runner.os }}-
+
+      # Testcontainers pokrece MySQL i izvrsava skripte iz database/
+      - name: Integration tests
+        run: >
+          dotnet test tests/OnlineKupovina.Tests/OnlineKupovina.Tests.csproj -c Release
+          --filter "Category=Integration"
+          --logger "trx;LogFilePrefix=integration"
+          --results-directory TestResults
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: integration-test-results
+          path: TestResults/*.trx
+          if-no-files-found: ignore
+
+  release:
+    name: Release (win-x64)
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [build, database]
+    runs-on: windows-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-dotnet@v5
+        with:
+          global-json-file: global.json
+
+      - name: Publish
+        run: >
+          dotnet publish OnlineKupovinaGUI/OnlineKupovinaGUI.csproj -c Release -r win-x64
+          --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true
+          -o publish/StoreChain
+
+      - name: Package
+        shell: pwsh
+        run: |
+          Copy-Item -Recurse database publish/StoreChain/database
+          Copy-Item docker-compose.yml, LICENSE.txt publish/StoreChain/
+          Compress-Archive -Path publish/StoreChain/* -DestinationPath "StoreChain-${{ github.ref_name }}-win-x64.zip"
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "${{ github.ref_name }}" "StoreChain-${{ github.ref_name }}-win-x64.zip" --title "${{ github.ref_name }}" --generate-notes

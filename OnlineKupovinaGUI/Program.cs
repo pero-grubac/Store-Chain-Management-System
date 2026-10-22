@@ -1,3 +1,7 @@
+using OnlineKupovina.Data;
+using OnlineKupovinaGUI.Views;
+using System.Globalization;
+
 namespace OnlineKupovinaGUI
 {
     internal static class Program
@@ -6,12 +10,29 @@ namespace OnlineKupovinaGUI
         ///  The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Login());
+
+            var kultura = CultureInfo.GetCultureInfo("bs-Latn-BA");
+            CultureInfo.DefaultThreadCurrentCulture = kultura;
+            CultureInfo.DefaultThreadCurrentUICulture = kultura;
+            Thread.CurrentThread.CurrentCulture = kultura;
+            Thread.CurrentThread.CurrentUICulture = kultura;
+
+            string connectionString;
+            try
+            {
+                connectionString = DBUtil.ConnectionString;
+            }
+            catch (InvalidOperationException e)
+            {
+                MessageBox.Show(e.Message, "Store Chain Management System", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            bool cijeliEkran = args.Contains("--fullscreen", StringComparer.OrdinalIgnoreCase);
+            Application.Run(new GlavnaForma(new Repozitoriji(connectionString), cijeliEkran));
         }
     }
 }

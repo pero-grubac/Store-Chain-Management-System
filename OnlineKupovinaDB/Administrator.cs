@@ -2,44 +2,22 @@
 {
     public class Administrator
     {
-        private int idAdministrator { get; set; }
-        private string ime { get; set; }
-        private string prezime { get; set; }
-        private string email { get; set; }
-        private string korisnickoIme { get; set; }
-        public Administrator(int idAdministrator, string ime, string prezime, string email, string korisnickoIme)
-        {
-            this.idAdministrator = idAdministrator;
-            this.ime = ime;
-            this.prezime = prezime;
-            this.email = email;
-            this.korisnickoIme = korisnickoIme;
+        public int Id { get; set; }
+        public string Ime { get; set; } = string.Empty;
+        public string Prezime { get; set; } = string.Empty;
+        public string KorisnickoIme { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
 
-        }
+        public string PunoIme => $"{Ime} {Prezime}";
 
-        public int ID
+        public List<string> Validiraj()
         {
-            get { return idAdministrator; }
-        }
-        public string Ime
-        {
-            get { return ime; }
-            set { ime = value; }
-        }
-        public string Prezime
-        {
-            get { return prezime; }
-            set { prezime = value; }
-        }
-        public string Email
-        {
-            get { return email; }
-            set { email = value; }
-        }
-        public string KorisnickoIme
-        {
-            get { return korisnickoIme; }
-            set { korisnickoIme = value; }
+            var greske = new List<string>();
+            Validacija.Obavezno(greske, Ime, "Ime", 50);
+            Validacija.Obavezno(greske, Prezime, "Prezime", 50);
+            Validacija.KorisnickoIme(greske, KorisnickoIme);
+            Validacija.Email(greske, Email);
+            return greske;
         }
     }
 }

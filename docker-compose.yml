@@ -1,0 +1,25 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: prodavnica-mysql
+    # Funkcije i trigeri se kreiraju uz ukljucen binarni log
+    command: ["--log-bin-trust-function-creators=1"]
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: prodavnica
+      MYSQL_USER: prodavnica
+      MYSQL_PASSWORD: prodavnica
+      TZ: Europe/Sarajevo
+    ports:
+      - "127.0.0.1:13306:3306"
+    volumes:
+      - ./database:/docker-entrypoint-initdb.d:ro
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-uprodavnica", "-pprodavnica"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+volumes:
+  mysql-data:

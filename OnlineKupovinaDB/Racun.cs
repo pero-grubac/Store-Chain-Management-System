@@ -2,45 +2,21 @@
 {
     public class Racun
     {
-        private int? idRacun { get; set; }
-        private DateTime datumKupovine { get; set; }
+        public const string Placen = "Placen";
+        public const string Storniran = "Storniran";
 
-        private Prodavnica prodavnica { get; set; }
-        public Racun(int? idRacun, DateTime datumKupovine, int idProdavnica)
-        {
-            this.idRacun = idRacun;
-            this.datumKupovine = datumKupovine;
+        public int Id { get; set; }
+        public DateTime Datum { get; set; }
+        public int IdKupca { get; set; }
+        public string Kupac { get; set; } = string.Empty;
+        public int IdProdavnice { get; set; }
+        public string Prodavnica { get; set; } = string.Empty;
+        public string? Kupon { get; set; }
+        public int BrojArtikala { get; set; }
+        public decimal Ukupno { get; set; }
+        public string Status { get; set; } = Placen;
 
-            this.prodavnica = new Prodavnica(idProdavnica);
-        }
-        public Racun(int idProdavnica, DateTime datumKupovine)
-        {
-
-            prodavnica = new(idProdavnica);
-            this.datumKupovine = datumKupovine;
-        }
-        public Racun(int id)
-        {
-            this.idRacun = id;
-        }
-        public Racun(int idRaacun, DateTime datumKupovine, string imeProdavnice)
-        {
-            this.idRacun = idRaacun;
-            this.datumKupovine = datumKupovine;
-            this.prodavnica = new(imeProdavnice);
-        }
-        public int? IdRacun
-        {
-            get { return idRacun; }
-            set { idRacun = value; }
-        }
-        public string ImeProdavnice
-        {
-            get { return prodavnica.Ime; }
-        }
-        public DateTime DatumKupovine
-        {
-            get { return datumKupovine; }
-        }
+        public bool JeStorniran => Status == Storniran;
+        public string Broj => $"R-{Id:D6}";
     }
 }

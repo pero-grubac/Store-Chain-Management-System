@@ -2,48 +2,25 @@
 {
     public class Adresa
     {
-        public int idAdresa { get; set; }
-        public string grad { get; set; }
-        public string ulica { get; set; }
-        public string drzava { get; set; }
+        public int IdAdrese { get; set; }
+        public string Grad { get; set; } = string.Empty;
+        public string Ulica { get; set; } = string.Empty;
+        public string Drzava { get; set; } = string.Empty;
 
-        public Adresa(int idAdresa, string grad, string ulica, string drzava)
+        public string PunaAdresa => string.Join(", ", new[] { Ulica, Grad, Drzava }.Where(d => !string.IsNullOrWhiteSpace(d)));
+
+        protected void ValidirajAdresu(List<string> greske)
         {
-            this.idAdresa = idAdresa;
-            this.grad = grad;
-            this.ulica = ulica;
-            this.drzava = drzava;
+            Validacija.Obavezno(greske, Grad, "Grad", 45);
+            Validacija.Obavezno(greske, Ulica, "Ulica", 100);
+            Validacija.Obavezno(greske, Drzava, "Država", 45);
         }
-        public Adresa(string drzava)
+
+        public virtual List<string> Validiraj()
         {
-            this.drzava = drzava;
-        }
-        public Adresa(int id) { this.idAdresa = id; }
-        public Adresa(string grad, string ulica, string drzava)
-        {
-            this.grad = grad;
-            this.ulica = ulica;
-            this.drzava = drzava;
-        }
-        public int ID
-        {
-            get { return idAdresa; }
-            set { idAdresa = value; }
-        }
-        public string Ulica
-        {
-            get { return ulica; }
-            set { ulica = value; }
-        }
-        public string Grad
-        {
-            get { return grad; }
-            set { grad = value; }
-        }
-        public string Drzava
-        {
-            get { return drzava; }
-            set { drzava = value; }
+            var greske = new List<string>();
+            ValidirajAdresu(greske);
+            return greske;
         }
     }
 }

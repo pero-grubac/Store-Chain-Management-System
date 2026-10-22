@@ -2,30 +2,26 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetFramework>net10.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyTitle>Store Chain Management System</AssemblyTitle>
+    <Product>Store Chain Management System</Product>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="HelperForms\Zaposleni.cs" />
-    <Compile Remove="HelperForms\Zaposleni.Designer.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Remove="HelperForms\Zaposleni.resx" />
-    <EmbeddedResource Remove="Kupci.resx" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
-    <PackageReference Include="MySql.Data" Version="8.1.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\OnlineKupovina.Data\OnlineKupovina.Data.csproj" />
     <ProjectReference Include="..\OnlineKupovinaDB\OnlineKupovinaDB.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="appsettings.Local.json" CopyToOutputDirectory="PreserveNewest" Condition="Exists('appsettings.Local.json')" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="OnlineKupovinaGUI.Tests" />
   </ItemGroup>
 
   <ItemGroup>

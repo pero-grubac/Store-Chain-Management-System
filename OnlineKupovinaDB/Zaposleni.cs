@@ -2,32 +2,29 @@
 {
     public class Zaposleni
     {
-        private int idZaposelni { get; set; }
-        private string ime { get; set; }
-        private string prezime { get; set; }
-        private string email { get; set; }
-        private string brojTellefona { get; set; }
-        private int idProdavnica { get; set; }
-        private double plata { get; set; }
-        private string korisnickoIme { get; set; }
-        public Zaposleni(int idZaposelni, string ime, string prezime, string email, string brojTelefona, int idProdavnica, double plata, string korisnickoIme)
+        public int Id { get; set; }
+        public string Ime { get; set; } = string.Empty;
+        public string Prezime { get; set; } = string.Empty;
+        public string KorisnickoIme { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string? BrojTelefona { get; set; }
+        public decimal Plata { get; set; }
+        public int IdProdavnice { get; set; }
+        public string Prodavnica { get; set; } = string.Empty;
+
+        public string PunoIme => $"{Ime} {Prezime}";
+
+        public List<string> Validiraj()
         {
-            this.idZaposelni = idZaposelni;
-            this.ime = ime;
-            this.brojTellefona = brojTelefona;
-            this.prezime = prezime;
-            this.email = email;
-            this.idProdavnica = idProdavnica;
-            this.plata = plata;
-            this.korisnickoIme = korisnickoIme;
+            var greske = new List<string>();
+            Validacija.Obavezno(greske, Ime, "Ime", 50);
+            Validacija.Obavezno(greske, Prezime, "Prezime", 50);
+            Validacija.KorisnickoIme(greske, KorisnickoIme);
+            Validacija.Email(greske, Email);
+            Validacija.Telefon(greske, BrojTelefona);
+            Validacija.Raspon(greske, Plata, 0.01m, 99_999_999m, "Plata");
+            if (IdProdavnice <= 0) greske.Add("Izaberite prodavnicu.");
+            return greske;
         }
-        public int ID { get { return idZaposelni; } }
-        public string KorisnickoIme { get { return korisnickoIme; } set { korisnickoIme = value; } }
-        public string Ime { get { return ime; } set { ime = value; } }
-        public string Prezime { get { return prezime; } set { prezime = value; } }
-        public string Email { get { return email; } set { email = value; } }
-        public double Plata { get { return plata; } set { plata = value; } }
-        public string BrojTelefona { get { return brojTellefona; } set { brojTellefona = value; } }
-        public int IdProdavnice { get { return idProdavnica; } set { idProdavnica = value; } }
     }
 }

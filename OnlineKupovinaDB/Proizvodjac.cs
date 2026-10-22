@@ -1,57 +1,21 @@
 ﻿namespace OnlineKupovinaDB
 {
-    public class Proizvodjac : Kompanija
+    public class Proizvodjac : Adresa
     {
-        private string email { get; set; }
+        public int Id { get; set; }
+        public string Naziv { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public int BrojProizvoda { get; set; }
 
-        public Proizvodjac(string email, int id, string ime, Adresa adresa) : base(id, ime, adresa)
+        public override List<string> Validiraj()
         {
-            this.email = email;
-        }
-        public Proizvodjac(string email, string ime, string drzava) : base(ime, drzava)
-        {
-            this.email = email;
-        }
-        public Proizvodjac(int id, string email, string ime, string drzava) : base(id, ime, drzava)
-        {
-            this.email = email;
-        }
-        public int ID
-        {
-            get { return id; }
-            set { id = value; }
-
-        }
-        public string Ime
-        {
-            get { return ime; }
-            set { ime = value; }
+            var greske = new List<string>();
+            Validacija.Obavezno(greske, Naziv, "Naziv proizvođača", 45);
+            Validacija.Email(greske, Email);
+            ValidirajAdresu(greske);
+            return greske;
         }
 
-
-        public string Email
-        {
-            get { return email; }
-            set { email = value; }
-        }
-        public int IdAdresa
-        {
-            get { return adresa.idAdresa; }
-        }
-        public string Drzava
-        {
-            get { return adresa?.drzava; }
-            set { adresa.drzava = value; }
-        }
-        public string Grad
-        {
-            get { return adresa?.grad; }
-            set { adresa.grad = value; }
-        }
-        public string Ulica
-        {
-            get { return adresa?.ulica; }
-            set { adresa.ulica = value; }
-        }
+        public override string ToString() => Naziv;
     }
 }
