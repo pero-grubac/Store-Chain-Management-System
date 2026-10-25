@@ -13,7 +13,7 @@
 
 **A Windows desktop application for running a retail chain: stores, staff, stock, discounts, shopping and reports, built around a MySQL database that enforces the business rules itself.**
 
-<img src="readme_assets/demo.gif" alt="Store Chain Management System demo in full screen: the administrator dashboard, discounts, cancelling a bill and the stock history, an employee scanning a barcode to receive goods, and a customer filling a cart with a coupon and buying" width="900">
+<img src="readme_assets/demo.gif" alt="Store Chain Management System demo: a customer adds a discounted chocolate and coffee to the cart, finds Plazma biscuits by search, applies the JESEN15 coupon, buys, and sees the new bill with its items under My bills" width="900">
 
 </div>
 
